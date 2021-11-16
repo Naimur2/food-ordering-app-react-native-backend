@@ -1,7 +1,7 @@
 const express = require('express');
 const mongoose = require('mongoose');
-const foodDataSchema = require('../Schemas/foodDataSchema');
-const categoryScema = require('../Schemas/categorySchema');
+const foodDataSchema = require('../schemas/foodDataSchema');
+const categoryScema = require('../schemas/categorySchema');
 
 const upload = require('../middlewares/fileUpload');
 
@@ -50,8 +50,6 @@ router.get('/all', async (req, res) => {
    });
 
 router.post('/categories', async (req, res) => {
-  
-   
    try{
          const category = await Category.insertMany(req.body);
          res.status(200).json({result: category,message:'succss'});
@@ -59,7 +57,6 @@ router.post('/categories', async (req, res) => {
    catch (err) {
         res.status(500).json({error:'Something Went wrong'});
    }
-   
 });
 
 

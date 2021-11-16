@@ -37,7 +37,39 @@ const FoodDataSchema = new mongoose.Schema({
     },
     deliveryTime:{
         type: String,
-    }
+    },
+    rating: {
+        type: Number,
+        default: 0
+    },
+    ratingCount: {
+        type: Number,
+        default: 0
+    },
+    isActive: {
+        type: Boolean,
+        default: true
+    },
+    isDeleted: {
+        type: Boolean,
+        default: false
+    },
+    createdAt: {
+        type: Date,
+        default: Date.now
+    },
+    updatedAt: {
+        type: Date,
+        default: Date.now
+    },
+    max:{
+        type: Number,
+        default: 5,
+    },
+    min:{
+        type: Number,
+        default: 1,
+    },
 });
 
 
