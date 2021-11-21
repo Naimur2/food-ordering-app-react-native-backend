@@ -1,14 +1,16 @@
 const express = require("express");
-const mongoose = require("mongoose");
-
 const router = express.Router();
 const bcrypt = require("bcrypt");
 const jwt = require("jsonwebtoken");
-const userSchema = require("../schemas/userSchema");
+const User = require("../schemas/userSchema");
 const checkLogin = require("../middlewares/checklogin");
+const Order = require("../schemas/ordersSchema");
+const Address = require("../schemas/addreessSchema");
+const Cart = require("../schemas/cartSchema");
+const FoodData = require("../schemas/foodDataSchema");
+const Category = require('../schemas/categorySchema');
 
 // create model
-const User = new mongoose.model("User", userSchema);
 
 // register user
 router.post("/register", async (req, res) => {
@@ -65,7 +67,6 @@ router.post("/login", async (req, res) => {
                         expiresIn: "2d",
                     }
                 );
-              
 
                 res.status(200).json({
                     user: userData[0],
@@ -89,7 +90,7 @@ router.get("/auth", checkLogin, async (req, res) => {
         const user = await User.find({ _id }).select({
             password: 0,
         });
-        console.log(user)
+
         res.status(200).json({
             result: user[0],
             message: "Successfull",
@@ -99,5 +100,35 @@ router.get("/auth", checkLogin, async (req, res) => {
     }
 });
 
+router.post("/data", async (req, res) => {
+    try {
+        const { user } = req.body;
+        const orders = await Order.find({ user });
+        const cart = await Cart.find({ user });
+        const address = await Address.find({ user });
+        const result={address:address,orders:orders,cart:cart};
+
+        res.status(200).json({
+            result,
+            message: "Successfull",
+        });
+    } catch (err) {
+        res.status(500).json({ error: "There was a server side error!" });
+    }
+});
+
+router.post("/admindata", async (req, res) => {
+    try {
+        const orders = await Order.find({});
+        const foods = await FoodData.find({});
+        const categories = await Category.find({});
+        res.status(200).json({
+            result:{orders,foods,categories},
+            message: "Successfull",
+        });
+    } catch (err) {
+        res.status(500).json({ error: "There was a server side error!" });
+    }
+});
 // export the router
 module.exports = router;

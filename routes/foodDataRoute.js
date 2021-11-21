@@ -1,14 +1,11 @@
 const express = require('express');
-const mongoose = require('mongoose');
-const foodDataSchema = require('../schemas/foodDataSchema');
-const categoryScema = require('../schemas/categorySchema');
-
+const FoodData = require('../schemas/foodDataSchema');
+const Category = require('../schemas/categorySchema');
 const upload = require('../middlewares/fileUpload');
 
 
 const router = express.Router();
-const FoodData =new mongoose.model('FoodData', foodDataSchema);
-const Category = new mongoose.model('Category', categoryScema);
+
 
 
 router.post('/', upload.array('image',3), async (req, res) => {
@@ -21,7 +18,6 @@ router.post('/', upload.array('image',3), async (req, res) => {
    catch (err) {
         res.status(500).json({error:'Something Went wrong'});
    }
-   
 });
 
 router.get('/', async (req, res) => {
@@ -72,6 +68,7 @@ router.get('/categories', async (req, res) => {
    }
    
 });
+
 
 
 

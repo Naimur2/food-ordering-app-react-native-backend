@@ -2,7 +2,10 @@ const express = require("express");
 const cors = require("cors");
 
 const FoodDataRoute = require('./routes/foodDataRoute');
+const CartRoute = require('./routes/cartRouter');
 const UserRoute = require('./routes/userRoute');
+const AddressRoute = require('./routes/addressRouter');
+const OrderRoute = require('./routes/orderRoute');
 const mongoose = require("mongoose");
 const dotenv = require("dotenv");
 
@@ -25,6 +28,9 @@ mongoose.connect(process.env.MONGODB_URI, () => {
 
 app.use('/foods', FoodDataRoute);
 app.use('/user',UserRoute)
+app.use('/cart',CartRoute);
+app.use('/address',AddressRoute)
+app.use('/orders',OrderRoute)
 
 
 const errorHandler = (err, req, res, next) => {
