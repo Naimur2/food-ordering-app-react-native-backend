@@ -35,9 +35,6 @@ const foodDataSchema = new mongoose.Schema({
         type: mongoose.Types.ObjectId,
         required: true,
     },
-    deliveryTime:{
-        type: String,
-    },
     rating: {
         type: Number,
         default: 0

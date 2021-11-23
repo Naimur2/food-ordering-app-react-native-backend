@@ -8,7 +8,7 @@ const router = express.Router();
 
 
 
-router.post('/', upload.array('image',3), async (req, res) => {
+router.post('/', upload.array('foodImage',3), async (req, res) => {
    const fileNames=await req.files.map(file=>file.filename);
    const foodData = new FoodData({...req.body,images:fileNames});
    try{
@@ -19,6 +19,16 @@ router.post('/', upload.array('image',3), async (req, res) => {
         res.status(500).json({error:'Something Went wrong'});
    }
 });
+
+// router.post('/add', upload.array('foodImage',3), async (req, res) => {
+//    console.log(req.body);
+//    try{
+//          res.status(200).json({result:req.body,message:'succss'});
+//    }
+//    catch (err) {
+//         res.status(500).json({error:'Something Went wrong'});
+//    }
+// });
 
 router.get('/', async (req, res) => {
   

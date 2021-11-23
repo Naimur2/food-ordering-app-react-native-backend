@@ -58,6 +58,7 @@ router.put("/update",checkLogin, async (req, res) => {
     }
 });
 
+// delete all cart items
 router.delete("/all" ,checkLogin, async (req, res) => {
     try {
         await Cart.deleteMany({ user: req.body.user }); // returns Query

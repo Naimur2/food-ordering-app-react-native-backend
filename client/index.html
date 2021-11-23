@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1.0, shrink-to-fit=no"
+        />
+        <title>Add Food</title>
+        <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="assets/css/Map-Clean.css" />
+        <link rel="stylesheet" href="assets/css/Navigation-Clean.css" />
+        <link rel="stylesheet" href="assets/css/Navigation-with-Search.css" />
+        <link rel="stylesheet" href="assets/css/styles.css" />
+    </head>
+
+    <body>
+        <header>
+            <nav class="navbar navbar-light navbar-expand-lg navigation-clean">
+                <div class="container">
+                    <a class="navbar-brand" href="#">GoodFood</a
+                    ><button class="navbar-toggler" data-bs-toggle="collapse">
+                        <span class="visually-hidden">Toggle navigation</span
+                        ><span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <section>
+                <div class="container">
+                    <form
+                        onsubmit="myFunction()"
+                        method="post"
+                        action="http://localhost:5000/foods/"
+                        enctype="multipart/form-data"
+                    >
+                        <div style="margin-bottom: 10px" class="form-group">
+                            <label for="foodImage">Food Image</label>
+                            <input
+                                type="file"
+                                class="form-control"
+                                id="foodImage"
+                                name="foodImage"
+                                accept=".jpg,.png"
+                                required
+                            />
+                        </div>
+                        <div style="margin-bottom: 10px" class="form-group">
+                            <label for="title">Food Name</label>
+                            <input
+                                type="text"
+                                class="form-control"
+                                id="title"
+                                name="title"
+                                placeholder="Enter Food Name"
+                                required
+                                maxlength="15"
+                            />
+                        </div>
+                        <div style="margin-bottom: 10px" class="form-group">
+                            <label for="description"
+                                >Food Short Description</label
+                            >
+                            <input
+                                type="text"
+                                class="form-control"
+                                id="description"
+                                name="description"
+                                placeholder="Food Short Description"
+                                required
+                                maxlength="30"
+                            />
+                        </div>
+                        <div style="margin-bottom: 10px" class="form-group">
+                            <label for="details">Food Long Description</label>
+                            <textarea
+                                class="form-control"
+                                id="details"
+                                name="details"
+                                required
+                                maxlength="200"
+                                aria-expanded="false"
+                                style="resize: none"
+                            ></textarea>
+                        </div>
+                        <div style="margin-bottom: 10px" class="form-group">
+                            <label for="price">Price</label>
+                            <input
+                                type="number"
+                                class="form-control"
+                                id="price"
+                                name="price"
+                                placeholder="Price"
+                                required
+                                maxlength="80"
+                            />
+                        </div>
+                        <div style="margin-bottom: 10px" class="form-group">
+                            <label for="discount">Discount</label>
+                            <input
+                                type="number"
+                                class="form-control"
+                                id="discount"
+                                name="discount"
+                                placeholder="Discount Taka"
+                                value="0"
+                                maxlength="80"
+                                min="0"
+                            />
+                        </div>
+                        <div style="margin-bottom: 10px" class="form-group">
+                            <label for="min">Mimimum order limit</label>
+                            <input
+                                type="number"
+                                class="form-control"
+                                id="min"
+                                name="min"
+                                placeholder="Mimimum"
+                                required
+                                maxlength="80"
+                                value="1"
+                                min="1"
+                            />
+                        </div>
+                        <div style="margin-bottom: 10px" class="form-group">
+                            <label for="max">Maximum order limit</label>
+                            <input
+                                type="number"
+                                class="form-control"
+                                id="max"
+                                name="max"
+                                placeholder="Maximum"
+                                required
+                                maxlength="80"
+                                value="5"
+                                min="1"
+                            />
+                        </div>
+                        <div style="margin-bottom: 10px" class="form-group">
+                            <label for="max">Select Category</label>
+                            <select
+                                class="form-select"
+                                aria-label="Select Category"
+                                name="category"
+                                id="category"
+                                required
+                            >
+                                <option value="618f2e735471e1d573f39fc4">
+                                    Burger
+                                </option>
+                                <option value="618f2e735471e1d573f39fc5">
+                                    Sandwitch
+                                </option>
+                                <option value="618f2e735471e1d573f39fc6">
+                                    Pizza
+                                </option>
+                                <option value="618f2e735471e1d573f39fc7">
+                                    Beverage
+                                </option>
+                            </select>
+                        </div>
+                        <button type="submit" class="btn btn-primary">
+                            Add Food Data
+                        </button>
+                    </form>
+                </div>
+            </section>
+        </main>
+        <script>
+            function myFunction(e) {
+                e.preventDefault();
+                alert("Food Added Successfully");
+            }
+        </script>
+        <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    </body>
+</html>
