@@ -1,0 +1,690 @@
+[{
+  "_id": {
+    "$oid": "618f2f325471e1d573f39fcc"
+  },
+  "title": "Cheese Burger",
+  "description": "Deshi Burger with extra cheese",
+  "details": "A hamburger is a food, typically considered a sandwich, consisting of one or more cooked patties—usually ground meat, typically beef—placed inside a sliced bread roll or bun. ",
+  "price": 100,
+  "discount": 110,
+  "deliveryCharge": 0,
+  "images": [
+    "__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__recipes__images__2015__07__20150727-teriyaki-burger-recipe-15-248e854d2dfe445f956747b641e689d7-1636773682425.jpg"
+  ],
+  "category": {
+    "$oid": "618f2e735471e1d573f39fc4"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "618f2f695471e1d573f39fce"
+  },
+  "title": "Butter Burger",
+  "description": "Deshi Burger with extra cheese",
+  "details": "A hamburger is a food, typically considered a sandwich, consisting of one or more cooked patties—usually ground meat, typically beef—placed inside a sliced bread roll or bun. ",
+  "price": 120,
+  "discount": 130,
+  "deliveryCharge": 0,
+  "images": [
+    "__opt__aboutcom__coeus__resources__content_migration__simply_recipes__uploads__2018__06__ht-grill-burger-lead-horizontal-4d92f9ebd3c742a5b84c1254e2770eab-1636773737391.jpg"
+  ],
+  "category": {
+    "$oid": "618f2e735471e1d573f39fc4"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "618f324d5471e1d573f39fd6"
+  },
+  "title": "Mutton Burger",
+  "description": "Deshi Burger with extra cheese",
+  "details": "A hamburger is a food, typically considered a sandwich, consisting of one or more cooked patties—usually ground meat, typically beef—placed inside a sliced bread roll or bun. ",
+  "price": 120,
+  "discount": 130,
+  "deliveryCharge": 0,
+  "images": [
+    "burger-1636774477561.jpg"
+  ],
+  "category": {
+    "$oid": "618f2e735471e1d573f39fc4"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "619d021a95c6fd4fbc94455a"
+  },
+  "title": "Lorem Ipsum is ",
+  "description": "Lorem Ipsum is simply dummy te",
+  "details": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, ",
+  "price": 100,
+  "discount": 0,
+  "deliveryCharge": 0,
+  "images": [
+    "__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__recipes__images__2015__07__20150727-teriyaki-burger-recipe-15-248e854d2dfe445f956747b641e689d7-1637679642307.jpg"
+  ],
+  "category": {
+    "$oid": "618f2e735471e1d573f39fc4"
+  },
+  "rating": 0,
+  "ratingCount": 0,
+  "isActive": true,
+  "isDeleted": false,
+  "max": 5,
+  "min": 1,
+  "createdAt": {
+    "$date": "2021-11-23T15:00:42.332Z"
+  },
+  "updatedAt": {
+    "$date": "2021-11-23T15:00:42.332Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "619d022295c6fd4fbc94455c"
+  },
+  "title": "Lorem Ipsum is ",
+  "description": "Lorem Ipsum is simply dummy te",
+  "details": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, ",
+  "price": 100,
+  "discount": 0,
+  "deliveryCharge": 0,
+  "images": [
+    "dsc_1187-1637679650755.jpg"
+  ],
+  "category": {
+    "$oid": "618f2e735471e1d573f39fc4"
+  },
+  "rating": 0,
+  "ratingCount": 0,
+  "isActive": true,
+  "isDeleted": false,
+  "max": 5,
+  "min": 1,
+  "createdAt": {
+    "$date": "2021-11-23T15:00:50.760Z"
+  },
+  "updatedAt": {
+    "$date": "2021-11-23T15:00:50.760Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "619d022a95c6fd4fbc94455e"
+  },
+  "title": "Lorem Ipsum is ",
+  "description": "Lorem Ipsum is simply dummy te",
+  "details": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, ",
+  "price": 100,
+  "discount": 0,
+  "deliveryCharge": 0,
+  "images": [
+    "photo-1568901346375-23c9450c58cd-1637679658544.jpg"
+  ],
+  "category": {
+    "$oid": "618f2e735471e1d573f39fc4"
+  },
+  "rating": 0,
+  "ratingCount": 0,
+  "isActive": true,
+  "isDeleted": false,
+  "max": 5,
+  "min": 1,
+  "createdAt": {
+    "$date": "2021-11-23T15:00:58.565Z"
+  },
+  "updatedAt": {
+    "$date": "2021-11-23T15:00:58.565Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "619d024995c6fd4fbc944569"
+  },
+  "title": "Lorem Ipsum is ",
+  "description": "Lorem Ipsum is simply dummy te",
+  "details": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, ",
+  "price": 100,
+  "discount": 0,
+  "deliveryCharge": 0,
+  "images": [
+    "83740315-1637679689106.jpg"
+  ],
+  "category": {
+    "$oid": "618f2e735471e1d573f39fc5"
+  },
+  "rating": 0,
+  "ratingCount": 0,
+  "isActive": true,
+  "isDeleted": false,
+  "max": 5,
+  "min": 1,
+  "createdAt": {
+    "$date": "2021-11-23T15:01:29.130Z"
+  },
+  "updatedAt": {
+    "$date": "2021-11-23T15:01:29.130Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "619d025095c6fd4fbc94456b"
+  },
+  "title": "Lorem Ipsum is ",
+  "description": "Lorem Ipsum is simply dummy te",
+  "details": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, ",
+  "price": 100,
+  "discount": 0,
+  "deliveryCharge": 0,
+  "images": [
+    "blt_sandwich_on_toast-1-1637679696339.jpg"
+  ],
+  "category": {
+    "$oid": "618f2e735471e1d573f39fc5"
+  },
+  "rating": 0,
+  "ratingCount": 0,
+  "isActive": true,
+  "isDeleted": false,
+  "max": 5,
+  "min": 1,
+  "createdAt": {
+    "$date": "2021-11-23T15:01:36.344Z"
+  },
+  "updatedAt": {
+    "$date": "2021-11-23T15:01:36.344Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "619d025895c6fd4fbc94456d"
+  },
+  "title": "Lorem Ipsum is ",
+  "description": "Lorem Ipsum is simply dummy te",
+  "details": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, ",
+  "price": 100,
+  "discount": 0,
+  "deliveryCharge": 0,
+  "images": [
+    "demo-sandwich-1637679704277.jpg"
+  ],
+  "category": {
+    "$oid": "618f2e735471e1d573f39fc5"
+  },
+  "rating": 0,
+  "ratingCount": 0,
+  "isActive": true,
+  "isDeleted": false,
+  "max": 5,
+  "min": 1,
+  "createdAt": {
+    "$date": "2021-11-23T15:01:44.285Z"
+  },
+  "updatedAt": {
+    "$date": "2021-11-23T15:01:44.285Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "619d026195c6fd4fbc94456f"
+  },
+  "title": "Lorem Ipsum is ",
+  "description": "Lorem Ipsum is simply dummy te",
+  "details": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, ",
+  "price": 100,
+  "discount": 0,
+  "deliveryCharge": 0,
+  "images": [
+    "istockphoto-962838130-612x612-1637679713151.jpg"
+  ],
+  "category": {
+    "$oid": "618f2e735471e1d573f39fc5"
+  },
+  "rating": 0,
+  "ratingCount": 0,
+  "isActive": true,
+  "isDeleted": false,
+  "max": 5,
+  "min": 1,
+  "createdAt": {
+    "$date": "2021-11-23T15:01:53.154Z"
+  },
+  "updatedAt": {
+    "$date": "2021-11-23T15:01:53.154Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "619d026795c6fd4fbc944571"
+  },
+  "title": "Lorem Ipsum is ",
+  "description": "Lorem Ipsum is simply dummy te",
+  "details": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, ",
+  "price": 100,
+  "discount": 0,
+  "deliveryCharge": 0,
+  "images": [
+    "istockphoto-1154590261-612x612-1637679719979.jpg"
+  ],
+  "category": {
+    "$oid": "618f2e735471e1d573f39fc5"
+  },
+  "rating": 0,
+  "ratingCount": 0,
+  "isActive": true,
+  "isDeleted": false,
+  "max": 5,
+  "min": 1,
+  "createdAt": {
+    "$date": "2021-11-23T15:01:59.985Z"
+  },
+  "updatedAt": {
+    "$date": "2021-11-23T15:01:59.985Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "619d026e95c6fd4fbc944573"
+  },
+  "title": "Lorem Ipsum is ",
+  "description": "Lorem Ipsum is simply dummy te",
+  "details": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, ",
+  "price": 100,
+  "discount": 0,
+  "deliveryCharge": 0,
+  "images": [
+    "rainbow-sandwich-1024-x-512-1280x720-1637679726802.jpg"
+  ],
+  "category": {
+    "$oid": "618f2e735471e1d573f39fc5"
+  },
+  "rating": 0,
+  "ratingCount": 0,
+  "isActive": true,
+  "isDeleted": false,
+  "max": 5,
+  "min": 1,
+  "createdAt": {
+    "$date": "2021-11-23T15:02:06.808Z"
+  },
+  "updatedAt": {
+    "$date": "2021-11-23T15:02:06.808Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "619d028895c6fd4fbc944575"
+  },
+  "title": "Lorem Ipsum is ",
+  "description": "Lorem Ipsum is simply dummy te",
+  "details": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, ",
+  "price": 100,
+  "discount": 0,
+  "deliveryCharge": 0,
+  "images": [
+    "__opt__aboutcom__coeus__resources__content_migration__simply_recipes__uploads__2019__09__easy-pepperoni-pizza-lead-3-8f256746d649404baa36a44d271329bc-1637679752389.jpg"
+  ],
+  "category": {
+    "$oid": "618f2e735471e1d573f39fc6"
+  },
+  "rating": 0,
+  "ratingCount": 0,
+  "isActive": true,
+  "isDeleted": false,
+  "max": 5,
+  "min": 1,
+  "createdAt": {
+    "$date": "2021-11-23T15:02:32.404Z"
+  },
+  "updatedAt": {
+    "$date": "2021-11-23T15:02:32.404Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "619d029095c6fd4fbc944577"
+  },
+  "title": "Lorem Ipsum is ",
+  "description": "Lorem Ipsum is simply dummy te",
+  "details": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, ",
+  "price": 100,
+  "discount": 0,
+  "deliveryCharge": 0,
+  "images": [
+    "56933159-1637679760076.jpg"
+  ],
+  "category": {
+    "$oid": "618f2e735471e1d573f39fc6"
+  },
+  "rating": 0,
+  "ratingCount": 0,
+  "isActive": true,
+  "isDeleted": false,
+  "max": 5,
+  "min": 1,
+  "createdAt": {
+    "$date": "2021-11-23T15:02:40.096Z"
+  },
+  "updatedAt": {
+    "$date": "2021-11-23T15:02:40.096Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "619d029b95c6fd4fbc944579"
+  },
+  "title": "Lorem Ipsum is ",
+  "description": "Lorem Ipsum is simply dummy te",
+  "details": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, ",
+  "price": 100,
+  "discount": 0,
+  "deliveryCharge": 0,
+  "images": [
+    "depositphotos_50523105-stock-photo-pizza-with-tomatoes-1637679771116.jpg"
+  ],
+  "category": {
+    "$oid": "618f2e735471e1d573f39fc6"
+  },
+  "rating": 0,
+  "ratingCount": 0,
+  "isActive": true,
+  "isDeleted": false,
+  "max": 5,
+  "min": 1,
+  "createdAt": {
+    "$date": "2021-11-23T15:02:51.123Z"
+  },
+  "updatedAt": {
+    "$date": "2021-11-23T15:02:51.123Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "619d02a295c6fd4fbc94457b"
+  },
+  "title": "Lorem Ipsum is ",
+  "description": "Lorem Ipsum is simply dummy te",
+  "details": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, ",
+  "price": 100,
+  "discount": 0,
+  "deliveryCharge": 0,
+  "images": [
+    "image-1637679778228.jpg"
+  ],
+  "category": {
+    "$oid": "618f2e735471e1d573f39fc6"
+  },
+  "rating": 0,
+  "ratingCount": 0,
+  "isActive": true,
+  "isDeleted": false,
+  "max": 5,
+  "min": 1,
+  "createdAt": {
+    "$date": "2021-11-23T15:02:58.245Z"
+  },
+  "updatedAt": {
+    "$date": "2021-11-23T15:02:58.246Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "619d02a995c6fd4fbc94457d"
+  },
+  "title": "Lorem Ipsum is ",
+  "description": "Lorem Ipsum is simply dummy te",
+  "details": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, ",
+  "price": 100,
+  "discount": 0,
+  "deliveryCharge": 0,
+  "images": [
+    "images-(1)-1637679785538.jpg"
+  ],
+  "category": {
+    "$oid": "618f2e735471e1d573f39fc6"
+  },
+  "rating": 0,
+  "ratingCount": 0,
+  "isActive": true,
+  "isDeleted": false,
+  "max": 5,
+  "min": 1,
+  "createdAt": {
+    "$date": "2021-11-23T15:03:05.542Z"
+  },
+  "updatedAt": {
+    "$date": "2021-11-23T15:03:05.542Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "619d02b095c6fd4fbc94457f"
+  },
+  "title": "Lorem Ipsum is ",
+  "description": "Lorem Ipsum is simply dummy te",
+  "details": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, ",
+  "price": 100,
+  "discount": 0,
+  "deliveryCharge": 0,
+  "images": [
+    "images-1637679792146.jpg"
+  ],
+  "category": {
+    "$oid": "618f2e735471e1d573f39fc6"
+  },
+  "rating": 0,
+  "ratingCount": 0,
+  "isActive": true,
+  "isDeleted": false,
+  "max": 5,
+  "min": 1,
+  "createdAt": {
+    "$date": "2021-11-23T15:03:12.164Z"
+  },
+  "updatedAt": {
+    "$date": "2021-11-23T15:03:12.164Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "619d030f95c6fd4fbc94458a"
+  },
+  "title": "Lorem Ipsum is ",
+  "description": "Lorem Ipsum is simply dummy te",
+  "details": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, ",
+  "price": 100,
+  "discount": 0,
+  "deliveryCharge": 0,
+  "images": [
+    "6000200246069-1637679887498.jpg"
+  ],
+  "category": {
+    "$oid": "618f2e735471e1d573f39fc7"
+  },
+  "rating": 0,
+  "ratingCount": 0,
+  "isActive": true,
+  "isDeleted": false,
+  "max": 5,
+  "min": 1,
+  "createdAt": {
+    "$date": "2021-11-23T15:04:47.505Z"
+  },
+  "updatedAt": {
+    "$date": "2021-11-23T15:04:47.505Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "619d031695c6fd4fbc94458c"
+  },
+  "title": "Lorem Ipsum is ",
+  "description": "Lorem Ipsum is simply dummy te",
+  "details": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, ",
+  "price": 100,
+  "discount": 0,
+  "deliveryCharge": 0,
+  "images": [
+    "coca-cola-bottle-1-1637679894429.jpg"
+  ],
+  "category": {
+    "$oid": "618f2e735471e1d573f39fc7"
+  },
+  "rating": 0,
+  "ratingCount": 0,
+  "isActive": true,
+  "isDeleted": false,
+  "max": 5,
+  "min": 1,
+  "createdAt": {
+    "$date": "2021-11-23T15:04:54.432Z"
+  },
+  "updatedAt": {
+    "$date": "2021-11-23T15:04:54.432Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "619d031c95c6fd4fbc94458e"
+  },
+  "title": "Lorem Ipsum is ",
+  "description": "Lorem Ipsum is simply dummy te",
+  "details": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, ",
+  "price": 100,
+  "discount": 0,
+  "deliveryCharge": 0,
+  "images": [
+    "depositphotos_47482769-stock-photo-bottle-of-sprite-drink-isolated-1637679900822.jpg"
+  ],
+  "category": {
+    "$oid": "618f2e735471e1d573f39fc7"
+  },
+  "rating": 0,
+  "ratingCount": 0,
+  "isActive": true,
+  "isDeleted": false,
+  "max": 5,
+  "min": 1,
+  "createdAt": {
+    "$date": "2021-11-23T15:05:00.845Z"
+  },
+  "updatedAt": {
+    "$date": "2021-11-23T15:05:00.845Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "619d032395c6fd4fbc944590"
+  },
+  "title": "Lorem Ipsum is ",
+  "description": "Lorem Ipsum is simply dummy te",
+  "details": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, ",
+  "price": 100,
+  "discount": 0,
+  "deliveryCharge": 0,
+  "images": [
+    "london-uk-june-9-2017-bottle-of-mountain-dew-drink-on-ice-isolated-kdye3h-1637679907618.jpg"
+  ],
+  "category": {
+    "$oid": "618f2e735471e1d573f39fc7"
+  },
+  "rating": 0,
+  "ratingCount": 0,
+  "isActive": true,
+  "isDeleted": false,
+  "max": 5,
+  "min": 1,
+  "createdAt": {
+    "$date": "2021-11-23T15:05:07.622Z"
+  },
+  "updatedAt": {
+    "$date": "2021-11-23T15:05:07.622Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "619d032b95c6fd4fbc944592"
+  },
+  "title": "Lorem Ipsum is ",
+  "description": "Lorem Ipsum is simply dummy te",
+  "details": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, ",
+  "price": 100,
+  "discount": 0,
+  "deliveryCharge": 0,
+  "images": [
+    "sprite-225-ltr-1637679915141.jpg"
+  ],
+  "category": {
+    "$oid": "618f2e735471e1d573f39fc7"
+  },
+  "rating": 0,
+  "ratingCount": 0,
+  "isActive": true,
+  "isDeleted": false,
+  "max": 5,
+  "min": 1,
+  "createdAt": {
+    "$date": "2021-11-23T15:05:15.145Z"
+  },
+  "updatedAt": {
+    "$date": "2021-11-23T15:05:15.145Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "619d033395c6fd4fbc944594"
+  },
+  "title": "Lorem Ipsum is ",
+  "description": "Lorem Ipsum is simply dummy te",
+  "details": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, ",
+  "price": 100,
+  "discount": 0,
+  "deliveryCharge": 0,
+  "images": [
+    "sprite-can-250-ml-1637679923241.jpg"
+  ],
+  "category": {
+    "$oid": "618f2e735471e1d573f39fc7"
+  },
+  "rating": 0,
+  "ratingCount": 0,
+  "isActive": true,
+  "isDeleted": false,
+  "max": 5,
+  "min": 1,
+  "createdAt": {
+    "$date": "2021-11-23T15:05:23.245Z"
+  },
+  "updatedAt": {
+    "$date": "2021-11-23T15:05:23.245Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "619da9209d7eb0f43d193cc4"
+  },
+  "title": "Lorem Ipsum is ",
+  "description": "Lorem Ipsum is simply dummy te",
+  "details": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy",
+  "price": 100,
+  "discount": 0,
+  "deliveryCharge": 0,
+  "images": [
+    "dsc_1187-1637722400966.jpg"
+  ],
+  "category": {
+    "$oid": "618f2e735471e1d573f39fc4"
+  },
+  "rating": 0,
+  "ratingCount": 0,
+  "isActive": true,
+  "isDeleted": false,
+  "max": 5,
+  "min": 1,
+  "createdAt": {
+    "$date": "2021-11-24T02:53:20.982Z"
+  },
+  "updatedAt": {
+    "$date": "2021-11-24T02:53:20.982Z"
+  },
+  "__v": 0
+}]

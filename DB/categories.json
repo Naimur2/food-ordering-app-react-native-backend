@@ -1,0 +1,29 @@
+[{
+  "_id": {
+    "$oid": "618f2e735471e1d573f39fc4"
+  },
+  "name": "Burger",
+  "description": "Best Burger",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "618f2e735471e1d573f39fc5"
+  },
+  "name": "Sandwitch",
+  "description": "Best Sandwitch",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "618f2e735471e1d573f39fc6"
+  },
+  "name": "Pizza",
+  "description": "Best Pizza",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "618f2e735471e1d573f39fc7"
+  },
+  "name": "Beverage",
+  "description": "Best Beverage",
+  "__v": 0
+}]
